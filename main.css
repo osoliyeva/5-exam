@@ -1,0 +1,17 @@
+.width{
+    display: grid;
+    grid-template-columns: 1fr,1fr,1fr,1fr;
+}
+.max-heigth{
+    height: 173PX;
+}
+@media screen and (max-width: 400px){
+    .column {
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
+    .mdwidth{
+        width: 304px;
+    }
+}
